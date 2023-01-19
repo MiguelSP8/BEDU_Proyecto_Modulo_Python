@@ -1,4 +1,4 @@
-# BEDU: Proyecto modulo 2
+# BEDU-Fase 2: Proyecto modulo 2 | Analisis de datos con Python
 
 La estructura del proyecto final es la siguiente:
 
