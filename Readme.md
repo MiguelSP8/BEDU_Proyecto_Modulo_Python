@@ -3,6 +3,10 @@
 La estructura del proyecto final es la siguiente:
 
 1. Identificar un tema que quieras resolver o explorar a través del uso de datos.
+- Inversión en ciencia vs PIB 
+- Efecto del covid en economía
+- Índice de radiación solar vs cancer de piel
+- Medidas covid vs impacto ambiental
 2. Plantear una serie de preguntas sobre lo que deseas conocer/resolver sobre este tema.
 3. Obtener una colección de datos que tengan la información necesaria para poder resolver tus preguntas.
 4.  Hacer una análisis preliminar sobre tus datos, intentando detectar puntos importantes en tus datos.
