@@ -6,6 +6,10 @@ La estructura del proyecto final es la siguiente:
 
 - Inversión en ciencia vs PIB 
 
+**Investigación**
+
+En tiempo reciente, los países desarrollados basan su crecimiento económico en la creación y uso del conocimiento, en términos de ciencia e inovación tecnológica, los cuales proporcionan ventajas competitivas respecto al mercado mundial. La cuestión entre si existe una relación entre los factores que impulsan la inovación y el desarrollo de la tecnología, como lo es la inversión en ciencia, y el crecimiento económico de un país ya ha sido abordada en varios estudios (Consultar referencias en directorio [Referencias](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Referencias)) 
+
 **2. Plantear una serie de preguntas sobre lo que deseas conocer/resolver sobre este tema.**
 
 - ¿Cuáles son los países que más invierten en ciencia?
@@ -28,7 +32,7 @@ http://wdi.worldbank.org/table
 
 En el mismo link anterior, podemos encontrar la sesión *Economy*, en la cual podemos acceder a la tabla *4.1 Growth of Gross Domestic Product*.
 
-En este repositorio se encuentran los directorios [Datos](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Datos) y [Referencias](), en los cuales se pueden encontrar las bases de datos obtenidas de la página del Banco Mundial (sin procesar) y algunos documentos en los que se han realizado estudios similares al propuesto, respectivamente.
+En este repositorio se encuentran los directorios [Datos](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Datos) y [Referencias](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Referencias), en los cuales se pueden encontrar las bases de datos obtenidas de la página del Banco Mundial (sin procesar) y algunos documentos en los que se han realizado estudios similares al propuesto, respectivamente.
 
 **4.  Hacer una análisis preliminar sobre tus datos, intentando detectar puntos importantes en tus datos.**
 **5. Limpiar tus datos y comenzar a obtener información general para tu problema.**
