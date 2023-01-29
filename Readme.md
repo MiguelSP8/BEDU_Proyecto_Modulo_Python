@@ -29,11 +29,19 @@ El **Banco Mundial** tiene registros respecto al gasto en investigación y desar
 
 https://datos.bancomundial.org/indicator/GB.XPD.RSDV.GD.ZS?end=2021&start=1996&view=chart
 
+De ella se pueden extraer tres documentos, los cuales contienen: 
+
+* Información respecto al gasto en *I+D* de cada país en diferentes años
+* Una clasificación de los países de acuerdo a sus ingresos así como respecto a la región a la que pertenecen.
+* Descripción de la base de datos.
+
 Así mismo, tienen registros sobre el tamaño de la economía de cada país. Eligiendo en la sesión *World View*, la tabla *WV1: Size of the economy*, en el sigueibte enlace:
 
 http://wdi.worldbank.org/table
 
-En el mismo link anterior, podemos encontrar la sesión *Economy*, en la cual podemos acceder a la tabla *4.1 Growth of Gross Domestic Product*.
+En dicha tabla se tiene información respecto a la población, área superficial, densidad de población, el incremento en el producto interno bruto y per capita, entre otros datos, asociados al año 2021.
+
+En el mismo link anterior, podemos encontrar la sesión *Economy*, en la cual podemos acceder a la tabla *4.1 Growth of Gross Domestic Product*. Esta tabla contiene el promedio de la razon de crecimiento del PIB entre los periodos 2000-2010 y 2010-2020, entre otros datos. 
 
 En este repositorio se encuentran los directorios [Datos](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Datos) y [Referencias](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Referencias), en los cuales se pueden encontrar las bases de datos obtenidas de la página del Banco Mundial (sin procesar) y algunos documentos en los que se han realizado estudios similares al propuesto, respectivamente.
 
