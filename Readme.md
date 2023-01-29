@@ -43,7 +43,7 @@ En dicha tabla se tiene información respecto a la población, área superficial
 
 En el mismo link anterior, podemos encontrar la sesión *Economy*, en la cual podemos acceder a la tabla *4.1 Growth of Gross Domestic Product*. Esta tabla contiene el promedio de la razon de crecimiento del PIB entre los periodos 2000-2010 y 2010-2020, entre otros datos. 
 
-En este repositorio se encuentran los directorios [Datos](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Datos) y [Referencias](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Referencias), en los cuales se pueden encontrar las bases de datos obtenidas de la página del Banco Mundial (sin procesar) y algunos documentos en los que se han realizado estudios similares al propuesto, respectivamente.
+En los directorios [Datos](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Datos) y [Referencias](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Referencias),se pueden encontrar las bases de datos previamente mencionadas, obtenidas de la página del Banco Mundial (sin procesar), y algunos documentos en los que se han realizado estudios similares al propuesto, respectivamente.
 
 **4.  Hacer una análisis preliminar sobre tus datos, intentando detectar puntos importantes en tus datos.**
 
