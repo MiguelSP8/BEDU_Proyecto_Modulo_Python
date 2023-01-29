@@ -22,7 +22,7 @@ Para nuestro estudio, la variable dependiente será el Producto Interno Bruto (G
 
 **3. Obtener una colección de datos que tengan la información necesaria para poder resolver tus preguntas.**
 
-Para poder responder de forma adecuada la principal pregunta, ¿existe una correlación entre la inversión en ciencia y el desarrollo de un país?, midiendo dicho desarrollo a través del PIB, se requiere de al menos de un modelo de regresión lineal. Sin embargo, una primer aproximación se puede realizar con un analisis simple de los datos. Para poder llevarlo a cabo, es necesario recolectar información que nos ayude a describir el comportamiento de la economia de diferentes países así como de los recursos que cada uno de ellos asigna a la inversión en ciencia y tecnología.
+Para poder responder de forma adecuada la principal pregunta, ¿existe una correlación entre la inversión en ciencia y el desarrollo de un país?, midiendo dicho desarrollo a través del PIB, se requiere al menos de un modelo de regresión lineal. Sin embargo, una primer aproximación se puede realizar con un analisis simple de los datos. Para poder llevarlo a cabo, es necesario recolectar información que nos ayude a describir el comportamiento de la economia de diferentes países, así como también de los recursos que cada uno de ellos invierte en ciencia y tecnología.
 
 El **Banco Mundial** tiene registros respecto al gasto en investigación y desarrollo, en términos del PIB de cada país. Dicha información se puede consultar en la siguiente página:
 
@@ -37,8 +37,11 @@ En el mismo link anterior, podemos encontrar la sesión *Economy*, en la cual po
 En este repositorio se encuentran los directorios [Datos](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Datos) y [Referencias](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Referencias), en los cuales se pueden encontrar las bases de datos obtenidas de la página del Banco Mundial (sin procesar) y algunos documentos en los que se han realizado estudios similares al propuesto, respectivamente.
 
 **4.  Hacer una análisis preliminar sobre tus datos, intentando detectar puntos importantes en tus datos.**
+
 **5. Limpiar tus datos y comenzar a obtener información general para tu problema.**
+
 **6. Transformar, filtrar y ordenar tus datos para que estén listos para hacer un análisis más profundo en el siguiente módulo.**
+
 **7. Ordenar tu código para una entrega profesional.**
 
 * Al final de sus sesiones, cada equipo deberá entregar tres (o cuatro) archivos:
