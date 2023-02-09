@@ -1,12 +1,18 @@
 # BEDU-Fase 2: Proyecto modulo 2 | Analisis de datos con Python
 
-La estructura del proyecto final es la siguiente:
+Este repositorio contiene el análisis asociado al proyecto del módulo "Análisis de datos con Python", correspondiente a la fase 2 del curso *Ciencia de datos para profesionistas* ofertado por *Santander-BEDU*. Este análisis fue realizado por los integrantes del **equipo 5**.
 
-**1. Identificar un tema que quieras resolver o explorar a través del uso de datos.**
+# Autores ✒️
 
-- Inversión en ciencia vs PIB 
+**Equipo 5 BEDU**
 
-**Investigación**
+* [Miguel Angel Sandoval Puentes](https://github.com/MiguelSP8) (ma.sandovalpuentes@ugto.mx)  - *Desarrollo de proyecto y Análisis* 
+* [José Carlos Cuevas](https://github.com/CUOC907A) (jcarlos_cuevas_olayo@hotmail.es) - *Desarrollo de proyecto y Análisis*
+* [Oswaldo Helí Ramírez González](https://github.com/waldohr1)) (oswaldo.ramirez@unicach.mx)- *Bases de proyecto*
+
+
+
+# Analisis de la relación entre la inversion en *I+D* y el crecimiento económico de un país
 
 En tiempo reciente, los países desarrollados han basado su crecimiento económico en la creación y uso del conocimiento, en términos de ciencia e inovación tecnológica, los cuales proporcionan ventajas competitivas respecto al mercado mundial. La cuestión entre si existe una relación entre los factores que impulsan la inovación y el desarrollo de la tecnología, como lo es la inversión en ciencia, y el crecimiento económico de un país ya ha sido abordada en varios estudios (consultar referencias en directorio [Referencias](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Referencias)). 
 
