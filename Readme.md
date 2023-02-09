@@ -63,12 +63,17 @@ En el directorio [Codigo](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Pyth
 
 
 #### Lectura de Bases de datos y Análisis exploratorio
-Una vez realizada la carga de las principales  librerías o módulos que serán utilizados en el análiis, se realizó la lectura de los datasets, seguido  de un análisis exploratorio con el objetivo de tener un mejor conocimiento de la muestra con la cual se está trabajando.
+Una vez realizada la carga de las principales  librerías o módulos que serán utilizados en el análisis, se realizó la lectura de los datasets, seguido  de un análisis exploratorio con el objetivo de tener un mejor conocimiento de la muestra con la cual se está trabajando.
 
 **Observaciones:**
-* Al ser un estudio asociado al comportamiento de un conjunto de países, la cantidad de registros disponibles es limitada, por la propia naturaleza del problema.
-* La cantidad de registros en los diferentes DataFrames es diferente de un data set a otro.
+* Al ser un estudio asociado al comportamiento de un conjunto de países, la cantidad de registros disponibles esta limitada por la propia naturaleza del problema.
+* La cantidad de registros en los diferentes DataFrames varia de un data set a otro.
 * En algunos de los DataFrames, los tipos de datos en cada columna son los correctos, mientras que en otros hay errores que es necesario corregir.
-* Nuestras bases de datos están en diferente idioma. Tenemos datos en inglés y en español, es necesario tenerlo en cuenta a la hora de procesar los datos, pricipalmente a la hora de relacionar los datos de los diferentes conjuntos.
+* Nuestras bases de datos están en diferente idioma. Tenemos datos en inglés y en español, es necesario tenerlo en cuenta a la hora de procesar los datos, pricipalmente al relacionar los datos de los diferentes conjuntos.
 * La nomenclatura de los nombres de algunas columnas no es la más ordenada o elegante, será necesario homogeneizar la notación a un formato adecuado.
 
+#### Limpieza y ordenamiento de datos
+
+Una vez identificados los problemas en nuestra base de datos, se procedió con el ordenamiento y limpieza de los diferentes conjuntos de datos. Se reasignó el tipo de datos en aquellas columnas que fue necesario, mediante las funciones `astype()` y `to_numeric()`. Así mismo, se utilizó la indexación para generar nuevos DataFrames, filtrando únicamente aquellas variables de interés para el análisis. Esto con el objetivo de evitar la psoible eliminación de datos útiles, debido a registros faltantes en columnas que no son de interés.
+
+Posteriormente se procedió a renombrar aquellas columnas cuyos nombres resultaban poco convenientes. Una vez que se tuvieron los datos en el tipo de datos correcto y ordenados, se prosiguió con la limpieza de datos, eliminando aquellos registros que tuvieran valores `NaN` mediante la función `dropna()` usando el argumento `axis=0` para eliminar registros por filas. La eliminación de los registros nulos tuvo la intención de evitar tener problemas en nuestro análisis. 
