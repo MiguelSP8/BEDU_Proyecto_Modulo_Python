@@ -96,21 +96,21 @@ Con la información anterior, estamos en posición de responder las preguntas qu
 En la Figura 2 se muestra la lista de los 10 países que en promedio invirtieron un mayor porcentaje de su PIB en ciencia en el periodo "2001-2010", así como dicho porcentaje invertido.
 
 ![Fig. 2: DataFrame mayores inversiores en *I+D* para "2001-2010"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_masInv_1.png)
-**Figura 2:** Lista de países con mayor porcentaje de inversión en *I+D* en el periodo ¨2001-2010".
+**Figura 2:** Lista de países con mayor porcentaje de inversión en *I+D* en el periodo "2001-2010".
 
 Por otro lado, en la Figura 3 se muestra la lista de los 10 países que en promedio invirtieron un mayor porcentaje de su PIB en ciencia en el periodo "2011-2020", acompañados por dicho porcentaje.
 
 ![Fig. 3: DataFrame mayores inversiores en *I+D* para "2011-2020"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_masInv_2.png)
-**Figura 3:** Lista de países con mayor porcentaje de inversión en *I+D* en el periodo ¨2011-2020".
+**Figura 3:** Lista de países con mayor porcentaje de inversión en *I+D* en el periodo "2011-2020".
 
 #### 2) ¿Cuáles son los países que menos invierten en ciencia?
 
 De manera similar a la pregunta anterior, en la Figura 4 se muestra la lista de los 10 países que en promedio invirtieron un menor porcentaje de su PIB en ciencia en el periodo "2001-2010", así como dicho porcentaje invertido.
 
 ![Fig. 4: DataFrame menores inversiores en *I+D* para "2001-2010"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_menosInv_1.png)
-**Figura 4:** Lista de países con menor porcentaje de inversión en *I+D* en el periodo ¨2001-2010".
+**Figura 4:** Lista de países con menor porcentaje de inversión en *I+D* en el periodo "2001-2010".
 
 Por otro lado, en la Figura 3 se muestra la lista de los 10 países que en promedio invirtieron un menor porcentaje de su PIB en ciencia en el periodo "2011-2020", acompañados por dicho porc>
 
 ![Fig. 5: DataFrame mayores inversiores en *I+D* para "2011-2020"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_menosInv_2.png)
-**Figura 5:** Lista de países con menor porcentaje de inversión en *I+D* en el periodo ¨2011-2020".
+**Figura 5:** Lista de países con menor porcentaje de inversión en *I+D* en el periodo "2011-2020".
