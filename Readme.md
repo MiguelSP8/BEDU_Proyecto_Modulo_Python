@@ -57,13 +57,18 @@ Para facilitar su consulta, en los directorios [Datos_originales](https://github
 
 ### 3) Análisis de datos
 
-Una vez que se conseguió un conjunto de datos tales que la información disponible a través de ellos nos permita responder, al menos como una primer aproximación, las diferentes preguntas planteadas, fue el turno de explorar, limpiar y ordenar nuestros datos. En el directorio [Codigo](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Codigo/proyecto_python_bedu_team5.ipynb) de este repositorio se encuentra el notebook usado en *Google Colab* para llevar a cabo dichas tareas. Nos dimos a la tarea de elaborar un notebook bastante bien organizado, y sobre todo, con información descriptiva del proceso que se está realizando, pensando en que cualquier persona con los conocimientos técnicos suficientes sea capaz de entender lo que a través de él se está haciendo sin mayor problema. Nuestro proceso de análisis está estructurado de la siguiente manera:
+Una vez que se conseguió un conjunto de datos tales que la información disponible a través de ellos nos permita responder, al menos como una primer aproximación, las diferentes preguntas planteadas, fue el turno de explorar, limpiar y ordenar nuestros datos. 
 
+En el directorio [Codigo](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Codigo/proyecto_python_bedu_team5.ipynb) de este repositorio se encuentra el notebook usado en *Google Colab* para llevar a cabo dichas tareas. Nos dimos a la tarea de este cuaderno de trabajo estuviera bastante bien organizado, y sobre todo, con información descriptiva del proceso que se está realizando, pensando en que cualquier persona con los conocimientos técnicos suficientes sea capaz de entender lo que a través de él se está haciendo sin mayor problema. Nuestro proceso de análisis está estructurado de la siguiente manera:
 
 
 #### Lectura de Bases de datos y Análisis exploratorio
 Una vez realizada la carga de las principales  librerías o módulos que serán utilizados en el análiis, se realizó la lectura de los datasets, seguido  de un análisis exploratorio con el objetivo de tener un mejor conocimiento de la muestra con la cual se está trabajando.
 
-
-
+**Observaciones:**
+* Al ser un estudio asociado al comportamiento de un conjunto de países, la cantidad de registros disponibles es limitada, por la propia naturaleza del problema.
+* La cantidad de registros en los diferentes DataFrames es diferente de un data set a otro.
+* En algunos de los DataFrames, los tipos de datos en cada columna son los correctos, mientras que en otros hay errores que es necesario corregir.
+* Nuestras bases de datos están en diferente idioma. Tenemos datos en inglés y en español, es necesario tenerlo en cuenta a la hora de procesar los datos, pricipalmente a la hora de relacionar los datos de los diferentes conjuntos.
+* La nomenclatura de los nombres de algunas columnas no es la más ordenada o elegante, será necesario homogeneizar la notación a un formato adecuado.
 
