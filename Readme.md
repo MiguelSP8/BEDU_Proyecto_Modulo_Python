@@ -154,7 +154,7 @@ En la Figura 10 se puede ver que la tendencia global respecto al incremento en l
 
 ![Fig. 10: DataFrame tendencia global sobe inversión en *I+D*](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_tendencia_mundo.png)
 
-**Figura 6:** Lista de países con mayor crecimiento en el PIB en el periodo "2001-2010".
+**Figura 10:** Lista de países con mayor crecimiento en el PIB en el periodo "2001-2010".
 
 #### 6) ¿Existe una relación entre la inversión en ciencia y el crecimineto de la economia de un pais?
 
@@ -164,3 +164,12 @@ Como una primer aproximación, vamos a analizar las coincidencias entre las tabl
 | --- | --- | --- | --- |
 | menor | menor | Países Bajos | Belarús, Finlandia, Ucrania |
 | mayor | mayor | China | China, Israel |
+
+Al momento, podemos ver que en ambos periodos hay evidencia de que existe un grado de relación entre en incremento en la inversión en *I+D* y el crecimiento económico de un país. Un análisis más concluyente sería analizar la correlación entre la incremento en la inversión y el crecimiento de cada país. Con esto en mente, en las Figuras 11 y 12 se muestran los gráficos de dispersión entre el crecimiento económico y el incremento en la inversión en ciencia y tecnología para los periódos "2001-2010" y "2011-2020", respectivamente.
+
+![Fig. 11: Correlación periodo 2001-2010](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/Periodo1.png)
+
+**Figura 11:** Gráfico de  dispersión para  el periodo "2001-2010".
+![Fig. 12: Correlación periodo 2011-2020](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/Periodo2.png)
+
+**Figura 12:** Gráfico de dispersión para el periodo "2011-2020".
