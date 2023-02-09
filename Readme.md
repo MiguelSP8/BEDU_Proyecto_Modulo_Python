@@ -146,3 +146,12 @@ Por otro lado, en la Figura 9 se muestra la lista de los 10 países que en prome
 ![Fig. 9: DataFrame menoreses crecimientos del PIB para "2011-2020"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_menosE_2.png)
 
 **Figura 9:** Lista de países con menor icrecimiento del PIB en el periodo "2011-2020".
+
+#### 5) ¿Cuál es la tendencia global con respecto a la inversión en ciencia?
+
+
+En la Figura 10 se puede ver que la tendencia global respecto al incremento en la inversión en ciencia para el periodo "2001-2010" es negativa, es decir, la tendencia global en dicho periodo fue disminuir el porcentaje de inversión destinada a *I+D*. Por el ocntrario, pero el periodo "2011-2020" la tendencia global fue incrementar el porcentaje del PIB destinado a ciencia y tecnología.
+
+![Fig. 10: DataFrame tendencia global sobe inversión en *I+D*](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_tendencia_mundo.png)
+
+**Figura 6:** Lista de países con mayor crecimiento en el PIB en el periodo "2001-2010".
