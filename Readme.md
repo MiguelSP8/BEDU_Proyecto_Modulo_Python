@@ -45,26 +45,14 @@ De esta base de datos se pueden extraer tres documentos, los cuales contienen:
 * Una clasificación de los países de acuerdo a sus ingresos así como respecto a la región a la que pertenecen (Metadata_Country_API_GB.XPD.RSDV.GD.ZS_DS2_es_csv_v2_4792337.csv).
 * Descripción de la base de datos (Metadata_Indicator_API_GB.XPD.RSDV.GD.ZS_DS2_es_csv_v2_4792337.csv).
 
-Así mismo, tienen registros sobre el tamaño de la economía de cada país. Eligiendo en la sesión *World View*, la tabla *WV1: Size of the economy*, en el sigueibte enlace:
+El Banco Mundial también tiene registros sobre el tamaño de la economía de cada país. Para acceder a ella, es necesario elegir la tabla *WV1: Size of the economy* en la sesión *World View* del sigueibte enlace:
 
 http://wdi.worldbank.org/table
 
 En dicha tabla se tiene información respecto a la población, área superficial, densidad de población, el incremento en el producto interno bruto y per capita, entre otros datos, asociados al año 2021.
 
-En el mismo link anterior, podemos encontrar la sesión *Economy*, en la cual podemos acceder a la tabla *4.1 Growth of Gross Domestic Product*. Esta tabla contiene el promedio de la razon de crecimiento del PIB entre los periodos 2000-2010 y 2010-2020, entre otros datos. 
+En la misma dirección antes mencionada, es posible acceder a la sección  *Economy*, en la cual podemos tener acceso a la tabla *4.1 Growth of Gross Domestic Product*. Esta tabla contiene el promedio de la razón de crecimiento del PIB entre los periodos 2000-2010 y 2010-2020, entre otros datos. 
 
-En los directorios [Datos_originales](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Datos_originales) y [Referencias](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Referencias),se pueden encontrar las bases de datos previamente mencionadas, obtenidas de la página del Banco Mundial (sin procesar), y algunos documentos en los que se han realizado estudios similares al propuesto, respectivamente.
+Para facilitar su consulta, en los directorios [Datos_originales](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Datos_originales) y [Referencias](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Referencias) es posible encontrar, respectivamente, las bases de datos (sin procesar) obtenidas de la página del Banco Mundial y algunos documentos de consulta en los que se describen estudios similares al propuesto.
 
-**4.  Hacer una análisis preliminar sobre tus datos, intentando detectar puntos importantes en tus datos.**
 
-**5. Limpiar tus datos y comenzar a obtener información general para tu problema.**
-
-**6. Transformar, filtrar y ordenar tus datos para que estén listos para hacer un análisis más profundo en el siguiente módulo.**
-
-**7. Ordenar tu código para una entrega profesional.**
-
-* Al final de sus sesiones, cada equipo deberá entregar tres (o cuatro) archivos:
-- Un documento escrito que contenga tus preguntas, análisis, comentarios e información de tu proyecto.
-- Un Jupyter Notebook que contenga todo el código usado para poder haber hecho tu análisis escrito. El código debe estar ordenado y limpio.
-- Un video explicando tu proyecto, hallazgos y código a modo de presentación.
-- Si el dataset que el equipo obtuvo no está en la nube, también deberán entregar la versión RAW (sin modificaciones) de su dataset.
