@@ -15,9 +15,9 @@ Para nuestro estudio, la variable dependiente será el Producto Interno Bruto (G
 **2. Plantear una serie de preguntas sobre lo que deseas conocer/resolver sobre este tema.**
 
 - ¿Cuáles son los países que más invierten en ciencia?
-- ¿Cuáles son los países con PIB más alto?
+- ¿Cuáles son los países con crecimiento del PIB más alto?
 - ¿Cuáles son los países que menos invierten en ciencia?
-- ¿Cuáles son los países con menor PIB?
+- ¿Cuáles son los países con menor crecimiento del PIB?
 - ¿Cuál es la tendencia global con respecto a la inversión en ciencia?
 - ¿Existe una relación entre la inversión en ciencia y el crecimineto de la economia de un pais?
 
