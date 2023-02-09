@@ -173,3 +173,9 @@ Al momento, podemos ver que en ambos periodos hay evidencia de que existe un gra
 ![Fig. 12: Correlación periodo 2011-2020](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/Periodo2.png)
 
 **Figura 12:** Gráfico de dispersión para el periodo "2011-2020".
+
+ Las gráficas de dispersión anteriores no muestran evidencia de correlación entre ambas variables.
+
+### Conclusiones
+
+Considerando las observaciones anteriores, podemos decir que hay indicios de cierta relación entre la inversión en ciencia y tenología, y el desarrollo económico de un país. Sin embargo, el estudio realizado hasta este momento no es del todo concluyente. Un análisis más completo incluiría datos de un mayor número de países, un mayor rango de tiempo y más variables, socioeconómicas y finiacieras, para describir de mejor manera el problema.
