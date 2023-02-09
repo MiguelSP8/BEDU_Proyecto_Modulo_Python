@@ -86,4 +86,4 @@ En este punto se logró tener un conjunto de DataFrames con información limpia,
 
 Al momento se logró tener la información de interés reunida y relacionada en un único DataFrame llamado `df_inversion_vs_economia`, una pequeña muestra de este Dataframe se puede apreciar el la Figura 1.
 
-
+![Fig. 1: DataFrame completo](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_inv_ec.png)
