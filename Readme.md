@@ -1,6 +1,6 @@
 # BEDU-Fase 2: Proyecto modulo 2 | Analisis de datos con Python
 
-Este repositorio contiene el análisis asociado al proyecto del módulo "Análisis de datos con Python", correspondiente a la fase 2 del curso *Ciencia de datos para profesionistas* ofertado por *Santander-BEDU*. Este análisis fue realizado por los integrantes del **equipo 5**.
+Este repositorio contiene el análisis asociado al proyecto del módulo "Análisis de datos con Python", correspondiente a la fase 2 del curso *Ciencia de datos para profesionistas* ofertado por *Santander-BEDU*.
 
 # Autores ✒️
 
