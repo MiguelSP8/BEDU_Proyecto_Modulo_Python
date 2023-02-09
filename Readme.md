@@ -20,7 +20,9 @@ Algunos análisis están enfocados a sectores muy especificos de la geografía m
 
 Para nuestro estudio, la variable dependiente será el porcentaje de crecimiento del Producto Interno Bruto (PIB o GDP, por sus siglas en inglés) de cada país, el cual nos permitirá analizar la dinámica de la economía en el tiempo. Nuestro principal objetivo es determinar si la inversion en *R+D* (investigación y desarrollo) en un país tiene un impacto sobre su crecimiento económico. Con esto en mente, nuestra variable independiente será el porcentaje del PIB destinado a la inversión en ciencia y tecnología. Es importante mencionar que factores como el crecimiento poblacional y las crisis financieras, entre varias otros parámetros socioeconómicos y financieros, tienen también algún grado de repercusión sobre el crecimiento económico de un pais, sin embargo, por el momento estarán fuera de este estudio, en consideración de las herramientas de análisis que tenemos a nuestra disposición en estos momentos.
 
-**2. Plantear una serie de preguntas sobre lo que deseas conocer/resolver sobre este tema.**
+### 1) Planteamiento de preguntas
+
+Como un primer acercamiento al entendimiento de este problema nos hemos planteado las siguientes preguntas preguntas, esperando que a través de su contestación tengamos un mayor entendimiento de la relación existente entre la inversión en ciencia y el crecimiento económico.
 
 - ¿Cuáles son los países que más invierten en ciencia?
 - ¿Cuáles son los países con crecimiento del PIB más alto?
@@ -29,19 +31,19 @@ Para nuestro estudio, la variable dependiente será el porcentaje de crecimiento
 - ¿Cuál es la tendencia global con respecto a la inversión en ciencia?
 - ¿Existe una relación entre la inversión en ciencia y el crecimineto de la economia de un pais?
 
-**3. Obtener una colección de datos que tengan la información necesaria para poder resolver tus preguntas.**
+### 2) Obtención de bases de datos
 
-Para poder responder de forma adecuada la principal pregunta, ¿existe una correlación entre la inversión en ciencia y el desarrollo de un país?, midiendo dicho desarrollo a través del PIB, se requiere al menos de un modelo de regresión lineal. Sin embargo, una primer aproximación se puede realizar con un analisis simple de los datos. Para poder llevarlo a cabo, es necesario recolectar información que nos ayude a describir el comportamiento de la economia de diferentes países, así como también de los recursos que cada uno de ellos invierte en ciencia y tecnología.
+Para poder responder de forma adecuada las preguntas anteriormente planteadas y sobre todo, la pregunta principal: ¿existe una correlación entre la inversión en ciencia y el desarrollo de un país?, es necesario recolectar información que nos ayude a describir el comportamiento de la economia de diferentes países a lo largo del tiempo, así como también de los recursos que cada uno de ellos invierte en ciencia y tecnología en dichos periodos.
 
-El **Banco Mundial** tiene registros respecto al gasto en investigación y desarrollo, en términos del PIB de cada país. Dicha información se puede consultar en la siguiente página:
+Buscando infromación al respecto, logramos encontrar que el **Banco Mundial** tiene registros respecto al gasto en investigación y desarrollo como porcentaje del PIB de varios países en un cierto intervalo de tiempo. Dicha información se puede consultar en la siguiente página:
 
 https://datos.bancomundial.org/indicator/GB.XPD.RSDV.GD.ZS?end=2021&start=1996&view=chart
 
-De ella se pueden extraer tres documentos, los cuales contienen: 
+De esta base de datos se pueden extraer tres documentos, los cuales contienen: 
 
-* Información respecto al gasto en *I+D* de cada país en diferentes años
-* Una clasificación de los países de acuerdo a sus ingresos así como respecto a la región a la que pertenecen.
-* Descripción de la base de datos.
+* Información respecto al gasto en *I+D* de cada país en diferentes años (API_GB.XPD.RSDV.GD.ZS_DS2_es_csv_v2_4792337.csv).
+* Una clasificación de los países de acuerdo a sus ingresos así como respecto a la región a la que pertenecen (Metadata_Country_API_GB.XPD.RSDV.GD.ZS_DS2_es_csv_v2_4792337.csv).
+* Descripción de la base de datos (Metadata_Indicator_API_GB.XPD.RSDV.GD.ZS_DS2_es_csv_v2_4792337.csv).
 
 Así mismo, tienen registros sobre el tamaño de la economía de cada país. Eligiendo en la sesión *World View*, la tabla *WV1: Size of the economy*, en el sigueibte enlace:
 
