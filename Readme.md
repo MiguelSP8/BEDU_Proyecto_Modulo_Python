@@ -170,6 +170,7 @@ Al momento, podemos ver que en ambos periodos hay evidencia de que existe un gra
 ![Fig. 11: Correlación periodo 2001-2010](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/Periodo1.png)
 
 **Figura 11:** Gráfico de  dispersión para  el periodo "2001-2010".
+
 ![Fig. 12: Correlación periodo 2011-2020](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/Periodo2.png)
 
 **Figura 12:** Gráfico de dispersión para el periodo "2011-2020".
