@@ -18,11 +18,11 @@ En tiempo reciente, los países desarrollados han basado su crecimiento económi
 
 Algunos análisis están enfocados a sectores muy especificos de la geografía mundial como lo unión europea ([Istraživanja, 2016](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Referencias/R%20D%20expenditure%20and%20economic%20growth%20EU28%20evidence%20for%20the%20period%202002%202012.pdf)) y la regíón asiatica conformada por China e India ([Varun Nayyar,2014](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Referencias/FULLTEXT01.pdf)). Otros estudios se centran en el análisis inverso, esto es, si el crecimiento económico de un país, el cual por le general se ve reflejado en el incrmento en la inversión en ciencia, tecnología e innovación, tiene alguna repercusión sobe la generación de ciencia de alto impacto por parte de la comunidad científica asociada a dicho país [Pakes and Sokoloff, 1996](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Referencias/pnas.93.23.12655.pdf). La mayoria de los estudios consultados hacen uso de regresiones logísticas multivariables, buscando cuantificar y entender en qué nivel contribuyen los diferentes factores considerados en el crecimiento económico o el desarrollo de la ciencia de alto impacto. Si bien, somos consientes de que un análisis de este estilo sería el más adecuado para nuestro propósito, esta técnica de analisis va más alla de los objetivos de este proyecto. Pero, sin lugar a dudas, podría ser un tema a desarrollar en proyectos futuros, una vez aprendidas las herramienta snecesarias para llevarlo a cabo.
 
-Para nuestro estudio, la variable dependiente será el porcentaje de crecimiento del Producto Interno Bruto (PIB o GDP, por sus siglas en inglés) de cada país, el cual nos permitirá analizar la dinámica de la economía en el tiempo. Nuestro principal objetivo es determinar si la inversion en *R+D* (investigación y desarrollo) en un país tiene un impacto sobre su crecimiento económico. Con esto en mente, nuestra variable independiente será el porcentaje del PIB destinado a la inversión en ciencia y tecnología. Es importante mencionar que factores como el crecimiento poblacional y las crisis financieras, entre varias otros parámetros socioeconómicos y financieros, tienen también algún grado de repercusión sobre el crecimiento económico de un pais, sin embargo, por el momento estarán fuera de este estudio, en consideración de las herramientas de análisis que tenemos a nuestra disposición en estos momentos.
+Para nuestro estudio, la variable dependiente será el porcentaje de crecimiento del Producto Interno Bruto (PIB o GDP, por sus siglas en inglés) de cada país, el cual nos permitirá analizar la dinámica de la economía en el tiempo. Nuestro principal objetivo es determinar si la inversion en *R+D* (investigación y desarrollo) en un país tiene un impacto sobre su crecimiento económico. Con esto en mente, nuestra variable independiente será el porcentaje del PIB destinado a la inversión en ciencia y tecnología. Es importante mencionar que factores como el crecimiento poblacional y las crisis financieras, entre varias otros parámetros socioeconómicos y financieros, tienen también algún grado de repercusión sobre el crecimiento económico de un pais, sin embargo, por el momento estarán fuera de este estudio, en consideración de las herramientas de análisis que tenemos a nuestra disposición en estos momentos. Nuestro análisis se basará en el estudio de correlaciones y tendencias.
 
 ### 1) Planteamiento de preguntas
 
-Como un primer acercamiento al entendimiento de este problema nos hemos planteado las siguientes preguntas preguntas, esperando que a través de su contestación tengamos un mayor entendimiento de la relación existente entre la inversión en ciencia y el crecimiento económico.
+Como un primer acercamiento al entendimiento de este problema nos hemos planteado las siguientes preguntas, esperando que mediante su respuesta logremos tener un meyor entendimiento de la relación existente entre la inversión en ciencia y el crecimiento económico.
 
 - ¿Cuáles son los países que más invierten en ciencia?
 - ¿Cuáles son los países con crecimiento del PIB más alto?
@@ -31,7 +31,7 @@ Como un primer acercamiento al entendimiento de este problema nos hemos plantead
 - ¿Cuál es la tendencia global con respecto a la inversión en ciencia?
 - ¿Existe una relación entre la inversión en ciencia y el crecimineto de la economia de un pais?
 
-### 2) Obtención de bases de datos
+### 2) Bases de datos
 
 Para poder responder de forma adecuada las preguntas anteriormente planteadas y sobre todo, la pregunta principal: ¿existe una correlación entre la inversión en ciencia y el desarrollo de un país?, es necesario recolectar información que nos ayude a describir el comportamiento de la economia de diferentes países a lo largo del tiempo, así como también de los recursos que cada uno de ellos invierte en ciencia y tecnología en dichos periodos.
 
@@ -45,14 +45,25 @@ De esta base de datos se pueden extraer tres documentos, los cuales contienen:
 * Una clasificación de los países de acuerdo a sus ingresos así como respecto a la región a la que pertenecen (Metadata_Country_API_GB.XPD.RSDV.GD.ZS_DS2_es_csv_v2_4792337.csv).
 * Descripción de la base de datos (Metadata_Indicator_API_GB.XPD.RSDV.GD.ZS_DS2_es_csv_v2_4792337.csv).
 
-El Banco Mundial también tiene registros sobre el tamaño de la economía de cada país. Para acceder a ella, es necesario elegir la tabla *WV1: Size of the economy* en la sesión *World View* del sigueibte enlace:
+El Banco Mundial también tiene registros sobre el tamaño de la economía de cada país. Para acceder a ella, es necesario elegir la tabla *WV1: Size of the economy* en la sesión *World View* del siguiente enlace:
 
 http://wdi.worldbank.org/table
 
 En dicha tabla se tiene información respecto a la población, área superficial, densidad de población, el incremento en el producto interno bruto y per capita, entre otros datos, asociados al año 2021.
 
-En la misma dirección antes mencionada, es posible acceder a la sección  *Economy*, en la cual podemos tener acceso a la tabla *4.1 Growth of Gross Domestic Product*. Esta tabla contiene el promedio de la razón de crecimiento del PIB entre los periodos 2000-2010 y 2010-2020, entre otros datos. 
+En esta misma dirección web, es posible acceder a la sección  *Economy*, en la cual podemos tener acceso a la tabla *4.1 Growth of Gross Domestic Product*. Esta tabla contiene el promedio de la razón de crecimiento del PIB entre los periodos 2000-2010 y 2010-2020, entre otros datos. 
 
 Para facilitar su consulta, en los directorios [Datos_originales](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Datos_originales) y [Referencias](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/tree/main/Referencias) es posible encontrar, respectivamente, las bases de datos (sin procesar) obtenidas de la página del Banco Mundial y algunos documentos de consulta en los que se describen estudios similares al propuesto.
+
+### 3) Análisis de datos
+
+Una vez que se conseguió un conjunto de datos tales que la información disponible a través de ellos nos permita responder, al menos como una primer aproximación, las diferentes preguntas planteadas, fue el turno de explorar, limpiar y ordenar nuestros datos. En el directorio [Codigo](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Codigo/proyecto_python_bedu_team5.ipynb) de este repositorio se encuentra el notebook usado en *Google Colab* para llevar a cabo dichas tareas. Nos dimos a la tarea de elaborar un notebook bastante bien organizado, y sobre todo, con información descriptiva del proceso que se está realizando, pensando en que cualquier persona con los conocimientos técnicos suficientes sea capaz de entender lo que a través de él se está haciendo sin mayor problema. Nuestro proceso de análisis está estructurado de la siguiente manera:
+
+
+
+#### Lectura de Bases de datos y Análisis exploratorio
+Una vez realizada la carga de las principales  librerías o módulos que serán utilizados en el análiis, se realizó la lectura de los datasets, seguido  de un análisis exploratorio con el objetivo de tener un mejor conocimiento de la muestra con la cual se está trabajando.
+
+
 
 
