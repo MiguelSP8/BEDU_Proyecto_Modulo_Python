@@ -96,11 +96,13 @@ Con la información anterior, estamos en posición de responder las preguntas qu
 En la Figura 2 se muestra la lista de los 10 países que en promedio aumentaron la inversión en ciencia un mayor porcentaje de su PIB en el periodo "2001-2010", así como dicho incremento en el porcentaje invertido.
 
 ![Fig. 2: DataFrame mayores inversiores en *I+D* para "2001-2010"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_masInv_1.png)
+
 **Figura 2:** Lista de países con mayor incremento en el porcentaje de inversión en *I+D* en el periodo "2001-2010".
 
 Por otro lado, en la Figura 3 se muestra la lista de los 10 países que en promedio tuvieron un mayor aumento en el porcentaje del PIB destinado a ciencia en el periodo "2011-2020", acompañados por dicho aumento porcentual.
 
 ![Fig. 3: DataFrame mayores inversiores en *I+D* para "2011-2020"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_masInv_2.png)
+
 **Figura 3:** Lista de países con mayor incremento en el porcentaje de inversión en *I+D* en el periodo "2011-2020".
 
 #### 2) ¿Cuáles son los países que menos invierten en ciencia?
@@ -108,11 +110,13 @@ Por otro lado, en la Figura 3 se muestra la lista de los 10 países que en prome
 De manera similar a la pregunta anterior, en la Figura 4 se muestra la lista de los 10 países que en promedio tuvieron un menor incremento en el porcentaje del PIB destinado a ciencia en el periodo "2001-2010", así como dicho incremento en elporcentaje invertido.
 
 ![Fig. 4: DataFrame menores inversiores en *I+D* para "2001-2010"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_menosInv_1.png)
+
 **Figura 4:** Lista de países con menor incremento en el porcentaje de inversión en *I+D* en el periodo "2001-2010".
 
 Por otro lado, en la Figura 5 se muestra la lista de los 10 países que en promedio tuvieron un menor incremento en el  porcentaje de su PIB destinado a ciencia en el periodo "2011-2020", acompañados por dicho incremento porcentual.
 
 ![Fig. 5: DataFrame mayores inversiores en *I+D* para "2011-2020"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_menosInv_2.png)
+
 **Figura 5:** Lista de países con menor incremento en el porcentaje de inversión en *I+D* en el periodo "2011-2020".
 
 #### 3) ¿Cuáles son los países con crecimiento del PIB más alto?
@@ -120,11 +124,13 @@ Por otro lado, en la Figura 5 se muestra la lista de los 10 países que en prome
 En la Figura 6 se muestra la lista de los 10 países que en promedio tuvieron un mayor crecimiento económico como porcentaje de su PIB en el periodo "2001-2010", así como dicho incremento. 
 
 ![Fig. 6: DataFrame mayores cecimientos de PIB para "2001-2010"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_masE_1.png)
+
 **Figura 6:** Lista de países con mayor crecimiento en el PIB en el periodo "2001-2010".
 
 Por otro lado, en la Figura 7 se muestra la lista de los 10 países que en promedio tuvieron un mayor crecimiento del PIB en el periodo "2011-2020", acompañados por tales incrementos.
 
 ![Fig.7: DataFrame mayores crecimientos de PIB para "2011-2020"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_masE_2.png)
+
 **Figura 7:** Lista de países con mayor crecimiento en el PIB en el periodo "2011-2020".
 
 #### 4) ¿Cuáles son los países con menor crecimiento del PIB?
@@ -132,9 +138,11 @@ Por otro lado, en la Figura 7 se muestra la lista de los 10 países que en prome
 De manera similar a la pregunta anterior, en la Figura 8 se muestra la lista de los 10 países con menor crecimiento del PIB en el periodo "2001-2010", así como dicho cecimiento.
 
 ![Fig. 8: DataFrame menores crecimientos de PIB para "2001-2010"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_menosE_1.png)
+
 **Figura 8:** Lista de países con menor incremento del PIB en el periodo "2001-2010".
 
 Por otro lado, en la Figura 9 se muestra la lista de los 10 países que en promedio tuvieron un menor incremento del PIB en el periodo "2011-2020", acompañados por tal aumento.
 
 ![Fig. 9: DataFrame menoreses crecimientos del PIB para "2011-2020"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_menosE_2.png)
-**Figura 5:** Lista de países con menor icrecimiento del PIB en el periodo "2011-2020".
+
+**Figura 9:** Lista de países con menor icrecimiento del PIB en el periodo "2011-2020".
