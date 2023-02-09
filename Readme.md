@@ -178,4 +178,4 @@ Al momento, podemos ver que en ambos periodos hay evidencia de que existe un gra
 
 ### Conclusiones
 
-Considerando las observaciones anteriores, podemos decir que hay indicios de cierta relación entre la inversión en ciencia y tenología, y el desarrollo económico de un país. Sin embargo, el estudio realizado hasta este momento no es del todo concluyente. Un análisis más completo incluiría datos de un mayor número de países, un mayor rango de tiempo y más variables, socioeconómicas y finiacieras, para describir de mejor manera el problema.
+Considerando las observaciones anteriores, podemos decir que hay indicios de cierta relación entre la inversión en ciencia y tenología, y el desarrollo económico de un país. Sin embargo, el estudio realizado hasta este momento no es del todo concluyente. Un análisis más completo incluiría datos de un mayor número de países, un mayor rango de tiempo y más variables, socioeconómicas y finiacieras, para describir de mejor manera el problema, así como también requeriría de técnicas de análisis más avanzado como lo es la regresión lineal.
