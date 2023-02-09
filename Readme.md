@@ -2,6 +2,10 @@
 
 Este repositorio contiene el análisis asociado al proyecto del módulo "Análisis de datos con Python", correspondiente a la fase 2 del curso *Ciencia de datos para profesionistas* ofertado por *Santander-BEDU*.
 
+Por completez, el link de este repositorio es el siguiente:
+
+[https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python.git](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python.git)
+
 # Autores ✒️
 
 **Equipo 5 BEDU**
@@ -77,3 +81,5 @@ Una vez realizada la carga de las principales  librerías o módulos que serán 
 Una vez identificados los problemas en nuestra base de datos, se procedió con el ordenamiento y limpieza de los diferentes conjuntos de datos. Se reasignó el tipo de datos en aquellas columnas que fue necesario, mediante las funciones `astype()` y `to_numeric()`. Así mismo, se utilizó la indexación para generar nuevos DataFrames, filtrando únicamente aquellas variables de interés para el análisis. Esto con el objetivo de evitar la psoible eliminación de datos útiles, debido a registros faltantes en columnas que no son de interés.
 
 Posteriormente se procedió a renombrar aquellas columnas cuyos nombres resultaban poco convenientes. Una vez que se tuvieron los datos en el tipo de datos correcto y ordenados, se prosiguió con la limpieza de datos, eliminando aquellos registros que tuvieran valores `NaN` mediante la función `dropna()` usando el argumento `axis=0` para eliminar registros por filas. La eliminación de los registros nulos tuvo la intención de evitar tener problemas en nuestro análisis. 
+
+En este punto se logró tener un conjunto de DataFrames con información limpia, ordenada y con el tipo de datos correcto. Lo siguiente fue reunir toda nuestra información en un data set y procesarla. Primero se hizo uso de las funciones de agregación para calcular la tendecia respecto al porcentaje de inversión en *I+D* promedio durante cada uno de los periodos de interés. Posteriormente, para poder hacer el `merge` de los datos, ns vimos en la necesidad de 
