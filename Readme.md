@@ -84,33 +84,33 @@ Posteriormente se procedió a renombrar aquellas columnas cuyos nombres resultab
 
 En este punto se logró tener un conjunto de DataFrames con información limpia, ordenada y con el tipo de datos correcto. Lo siguiente fue reunir toda nuestra información en un data set y procesarla. Primero se hizo uso de las funciones de agregación para calcular la tendecia respecto al porcentaje de inversión en *I+D* promedio durante cada uno de los periodos de interés. Posteriormente, para poder hacer el `merge` de los datos, nos vimos en la necesidad de utilizar el módulo `country_converter` para incluir el código de país como una nueva columna en el DataFrame con la información del crecimiento económico de cada pais, debido a que esta información no estaba inluída. El problema consistía en que al tener bases de datos en diferentes idiomas, el merge por nombre de país estaba excluyendo países cuyo nombre se modificara de un idioma al otro, por ejemplo "México" y "Mexico", o  "Brasil" y "Brazil". Entonces, aprovechando que el código de país es invariante ante tal circunstancia, usamos esta información como llave para realizar el `merge`.
 
-Al momento se logró tener la información de interés reunida y relacionada en un único DataFrame llamado `df_inversion_vs_economia`, una pequeña muestra de este Dataframe se puede apreciar el la Figura 1.
+Al momento se logró tener la información de interés reunida y relacionada en un único DataFrame llamado `df_inversion_vs_economia`, una pequeña muestra de este Dataframe se puede apreciar el la Figura 1. Este DataFrame contiene la información del incremento promedio en el porcentaje del PIB destinado a *I+D*, así como del crecimiento promedio de la economia, para cada país, en los periodos "2001-2010" y "2011-2020".
 
 ![Fig. 1: DataFrame completo](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_inv_ec.png)
 **Figura 1:** Muestra del DataFrame `df_inversion_vs_economia`.
 
-Con la información anterior, estamos en posición de responder las preguntas que nos habíamos planteado, y con ello, establecer una primero conclusión respecto al problema de interés.
+Con la información anterior, estamos en posición de responder las preguntas que nos habíamos planteado, y con ello, establecer una primera conclusión respecto al problema de interés.
 
 #### 1) ¿Cuáles son los países que más invierten en ciencia?
 
-En la Figura 2 se muestra la lista de los 10 países que en promedio invirtieron un mayor porcentaje de su PIB en ciencia en el periodo "2001-2010", así como dicho porcentaje invertido.
+En la Figura 2 se muestra la lista de los 10 países que en promedio aumentaron la inversión en ciencia un mayor porcentaje de su PIB en el periodo "2001-2010", así como dicho incremento en el porcentaje invertido.
 
 ![Fig. 2: DataFrame mayores inversiores en *I+D* para "2001-2010"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_masInv_1.png)
-**Figura 2:** Lista de países con mayor porcentaje de inversión en *I+D* en el periodo "2001-2010".
+**Figura 2:** Lista de países con mayor incremento en el porcentaje de inversión en *I+D* en el periodo "2001-2010".
 
-Por otro lado, en la Figura 3 se muestra la lista de los 10 países que en promedio invirtieron un mayor porcentaje de su PIB en ciencia en el periodo "2011-2020", acompañados por dicho porcentaje.
+Por otro lado, en la Figura 3 se muestra la lista de los 10 países que en promedio tuvieron un mayor aumento en el porcentaje del PIB destinado a ciencia en el periodo "2011-2020", acompañados por dicho aumento porcentual.
 
 ![Fig. 3: DataFrame mayores inversiores en *I+D* para "2011-2020"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_masInv_2.png)
-**Figura 3:** Lista de países con mayor porcentaje de inversión en *I+D* en el periodo "2011-2020".
+**Figura 3:** Lista de países con mayor incremento en el porcentaje de inversión en *I+D* en el periodo "2011-2020".
 
 #### 2) ¿Cuáles son los países que menos invierten en ciencia?
 
-De manera similar a la pregunta anterior, en la Figura 4 se muestra la lista de los 10 países que en promedio invirtieron un menor porcentaje de su PIB en ciencia en el periodo "2001-2010", así como dicho porcentaje invertido.
+De manera similar a la pregunta anterior, en la Figura 4 se muestra la lista de los 10 países que en promedio tuvieron un menor incremento en el porcentaje del PIB destinado a ciencia en el periodo "2001-2010", así como dicho incremento en elporcentaje invertido.
 
 ![Fig. 4: DataFrame menores inversiores en *I+D* para "2001-2010"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_menosInv_1.png)
-**Figura 4:** Lista de países con menor porcentaje de inversión en *I+D* en el periodo "2001-2010".
+**Figura 4:** Lista de países con menor incremento en el porcentaje de inversión en *I+D* en el periodo "2001-2010".
 
-Por otro lado, en la Figura 3 se muestra la lista de los 10 países que en promedio invirtieron un menor porcentaje de su PIB en ciencia en el periodo "2011-2020", acompañados por dicho porc>
+Por otro lado, en la Figura 3 se muestra la lista de los 10 países que en promedio tuvieron un menor incremento en el  porcentaje de su PIB destinado a ciencia en el periodo "2011-2020", acompañados por dicho incremento porcentual.
 
 ![Fig. 5: DataFrame mayores inversiores en *I+D* para "2011-2020"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_menosInv_2.png)
-**Figura 5:** Lista de países con menor porcentaje de inversión en *I+D* en el periodo "2011-2020".
+**Figura 5:** Lista de países con menor incremento en el porcentaje de inversión en *I+D* en el periodo "2011-2020".
