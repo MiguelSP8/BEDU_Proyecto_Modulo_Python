@@ -87,6 +87,7 @@ En este punto se logró tener un conjunto de DataFrames con información limpia,
 Al momento se logró tener la información de interés reunida y relacionada en un único DataFrame llamado `df_inversion_vs_economia`, una pequeña muestra de este Dataframe se puede apreciar el la Figura 1. Este DataFrame contiene la información del incremento promedio en el porcentaje del PIB destinado a *I+D*, así como del crecimiento promedio de la economia, para cada país, en los periodos "2001-2010" y "2011-2020".
 
 ![Fig. 1: DataFrame completo](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_inv_ec.png)
+
 **Figura 1:** Muestra del DataFrame `df_inversion_vs_economia`.
 
 Con la información anterior, estamos en posición de responder las preguntas que nos habíamos planteado, y con ello, establecer una primera conclusión respecto al problema de interés.
@@ -164,8 +165,9 @@ Como una primer aproximación, vamos a analizar las coincidencias entre las tabl
 | --- | --- | --- | --- |
 | menor | menor | Países Bajos | Belarús, Finlandia, Ucrania |
 | mayor | mayor | China | China, Israel |
+**Tabla 1:** Coincidencias en tablas de inversión em ciencia y crecimiento económico.
 
-Al momento, podemos ver que en ambos periodos hay evidencia de que existe un grado de relación entre en incremento en la inversión en *I+D* y el crecimiento económico de un país. Un análisis más concluyente sería analizar la correlación entre la incremento en la inversión y el crecimiento de cada país. Con esto en mente, en las Figuras 11 y 12 se muestran los gráficos de dispersión entre el crecimiento económico y el incremento en la inversión en ciencia y tecnología para los periódos "2001-2010" y "2011-2020", respectivamente.
+Al momento, podemos ver que en ambos periodos hay evidencia de que existe un grado de relación entre en incremento en la inversión en *I+D* y el crecimiento económico de un país, considerando las coincidencias en la tabla anterior. Un análisis más concluyente sería analizar la correlación entre la incremento en la inversión y el crecimiento de cada país. Con esto en mente, en las Figuras 11 y 12 se muestran los gráficos de dispersión entre el crecimiento económico y el incremento en la inversión en ciencia y tecnología para los periódos "2001-2010" y "2011-2020", respectivamente.
 
 ![Fig. 11: Correlación periodo 2001-2010](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/Periodo1.png)
 
