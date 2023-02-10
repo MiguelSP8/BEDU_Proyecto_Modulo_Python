@@ -74,17 +74,17 @@ Una vez realizada la carga de las principales  librerías o módulos que serán 
 * La cantidad de registros en los diferentes DataFrames varia de un data set a otro.
 * En algunos de los DataFrames, los tipos de datos en cada columna son los correctos, mientras que en otros hay errores que es necesario corregir.
 * Nuestras bases de datos están en diferente idioma. Tenemos datos en inglés y en español, es necesario tenerlo en cuenta a la hora de procesar los datos, pricipalmente al relacionar los datos de los diferentes conjuntos.
-* La nomenclatura de los nombres de algunas columnas no es la más ordenada o elegante, será necesario homogeneizar la notación a un formato adecuado.
+* La nomenclatura de los nombres de algunas columnas no es la más ordenada o elegante, es necesario homogeneizar la notación a un formato adecuado.
 
 #### Limpieza y ordenamiento de datos
 
-Una vez identificados los problemas en nuestra base de datos, se procedió con el ordenamiento y limpieza de los diferentes conjuntos de datos. Se reasignó el tipo de datos en aquellas columnas que fue necesario, mediante las funciones `astype()` y `to_numeric()`. Así mismo, se utilizó la indexación para generar nuevos DataFrames, filtrando únicamente aquellas variables de interés para el análisis. Esto con el objetivo de evitar la psoible eliminación de datos útiles, debido a registros faltantes en columnas que no son de interés.
+Una vez identificados los problemas en nuestra base de datos, se procedió con el ordenamiento y limpieza de los diferentes conjuntos de datos. Se reasignó el tipo de datos en aquellas columnas que fue necesario, mediante las funciones `astype()` y `to_numeric()`. Así mismo, se utilizó la indexación para generar nuevos DataFrames, filtrando únicamente aquellas variables de interés para el análisis. Esto con el objetivo de evitar la posible eliminación de datos útiles, debido a registros faltantes en columnas que no son de interés.
 
 Posteriormente se procedió a renombrar aquellas columnas cuyos nombres resultaban poco convenientes. Una vez que se tuvieron los datos en el tipo de datos correcto y ordenados, se prosiguió con la limpieza de datos, eliminando aquellos registros que tuvieran valores `NaN` mediante la función `dropna()` usando el argumento `axis=0` para eliminar registros por filas. La eliminación de los registros nulos tuvo la intención de evitar tener problemas en nuestro análisis. 
 
 En este punto se logró tener un conjunto de DataFrames con información limpia, ordenada y con el tipo de datos correcto. Lo siguiente fue reunir toda nuestra información en un data set y procesarla. Primero se hizo uso de las funciones de agregación para calcular la tendecia respecto al porcentaje de inversión en *I+D* promedio durante cada uno de los periodos de interés. Posteriormente, para poder hacer el `merge` de los datos, nos vimos en la necesidad de utilizar el módulo `country_converter` para incluir el código de país como una nueva columna en el DataFrame con la información del crecimiento económico de cada pais, debido a que esta información no estaba inluída. El problema consistía en que al tener bases de datos en diferentes idiomas, el merge por nombre de país estaba excluyendo países cuyo nombre se modificara de un idioma al otro, por ejemplo "México" y "Mexico", o  "Brasil" y "Brazil". Entonces, aprovechando que el código de país es invariante ante tal circunstancia, usamos esta información como llave para realizar el `merge`.
 
-Al momento se logró tener la información de interés reunida y relacionada en un único DataFrame llamado `df_inversion_vs_economia`, una pequeña muestra de este Dataframe se puede apreciar el la Figura 1. Este DataFrame contiene la información del incremento promedio en el porcentaje del PIB destinado a *I+D*, así como del crecimiento promedio de la economia, para cada país, en los periodos "2001-2010" y "2011-2020".
+Al momento se logró tener la información de interés reunida y relacionada en un único DataFrame llamado `df_inversion_vs_economia`, una pequeña muestra de este Dataframe se puede apreciar el la Figura 1. Este DataFrame contiene la información del incremento promedio en el porcentaje del PIB destinado a *I+D*, así como del crecimiento promedio de la economía, para cada país, en los periodos "2001-2010" y "2011-2020".
 
 ![Fig. 1: DataFrame completo](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_inv_ec.png)
 
@@ -108,7 +108,7 @@ Por otro lado, en la Figura 3 se muestra la lista de los 10 países que en prome
 
 #### 2) ¿Cuáles son los países que menos invierten en ciencia?
 
-De manera similar a la pregunta anterior, en la Figura 4 se muestra la lista de los 10 países que en promedio tuvieron un menor incremento en el porcentaje del PIB destinado a ciencia en el periodo "2001-2010", así como dicho incremento en elporcentaje invertido.
+De manera similar a la pregunta anterior, en la Figura 4 se muestra la lista de los 10 países que en promedio tuvieron un menor incremento en el porcentaje del PIB destinado a ciencia en el periodo "2001-2010", así como dicho incremento en el porcentaje invertido.
 
 ![Fig. 4: DataFrame menores inversiores en *I+D* para "2001-2010"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_menosInv_1.png)
 
@@ -121,7 +121,7 @@ Por otro lado, en la Figura 5 se muestra la lista de los 10 países que en prome
 **Figura 5:** Lista de países con menor incremento en el porcentaje de inversión en *I+D* en el periodo "2011-2020".
 
 #### 3) ¿Cuáles son los países con crecimiento del PIB más alto?
-
+´
 En la Figura 6 se muestra la lista de los 10 países que en promedio tuvieron un mayor crecimiento económico como porcentaje de su PIB en el periodo "2001-2010", así como dicho incremento. 
 
 ![Fig. 6: DataFrame mayores cecimientos de PIB para "2001-2010"](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/DF_masE_1.png)
@@ -168,7 +168,7 @@ Como una primer aproximación, vamos a analizar las coincidencias entre las tabl
 
 **Tabla 1:** Coincidencias en tablas de inversión en ciencia y crecimiento económico.
 
-Al momento, podemos ver que en ambos periodos hay evidencia de que existe un grado de relación entre en incremento en la inversión en *I+D* y el crecimiento económico de un país, considerando las coincidencias en la tabla anterior. Un análisis más concluyente sería analizar la correlación entre la incremento en la inversión y el crecimiento de cada país. Con esto en mente, en las Figuras 11 y 12 se muestran los gráficos de dispersión entre el crecimiento económico y el incremento en la inversión en ciencia y tecnología para los periódos "2001-2010" y "2011-2020", respectivamente.
+Al momento, podemos ver que en ambos periodos hay evidencia de que existe un grado de relación entre en incremento en la inversión en *I+D* y el crecimiento económico de un país, considerando las coincidencias en la tabla anterior. Un análisis más concluyente sería analizar la correlación entre la incremento en la inversión en ciencia y el crecimiento de cada país. Con esto en mente, en las Figuras 11 y 12 se muestran los gráficos de dispersión entre el crecimiento económico y el incremento en la inversión en *I+D* para los periódos "2001-2010" y "2011-2020", respectivamente.
 
 ![Fig. 11: Correlación periodo 2001-2010](https://github.com/MiguelSP8/BEDU_Proyecto_Modulo_Python/blob/main/Imagenes/Periodo1.png)
 
