@@ -12,7 +12,7 @@ Por completez, el link de este repositorio es el siguiente:
 
 * [Miguel Angel Sandoval Puentes](https://github.com/MiguelSP8) (ma.sandovalpuentes@ugto.mx)  - *Desarrollo de proyecto y Análisis* 
 * [José Carlos Cuevas](https://github.com/CUOC907A) (jcarlos_cuevas_olayo@hotmail.es) - *Desarrollo de proyecto y Análisis*
-* [Oswaldo Helí Ramírez González](https://github.com/waldohr1)) (oswaldo.ramirez@unicach.mx)- *Bases de proyecto*
+* [Oswaldo Helí Ramírez González](https://github.com/waldohr1) (oswaldo.ramirez@unicach.mx)- *Bases de proyecto*
 
 
 
