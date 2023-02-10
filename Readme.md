@@ -166,7 +166,7 @@ Como una primer aproximación, vamos a analizar las coincidencias entre las tabl
 | menor | menor | Países Bajos | Belarús, Finlandia, Ucrania |
 | mayor | mayor | China | China, Israel |
 
-**Tabla 1:** Coincidencias en tablas de inversión em ciencia y crecimiento económico.
+**Tabla 1:** Coincidencias en tablas de inversión en ciencia y crecimiento económico.
 
 Al momento, podemos ver que en ambos periodos hay evidencia de que existe un grado de relación entre en incremento en la inversión en *I+D* y el crecimiento económico de un país, considerando las coincidencias en la tabla anterior. Un análisis más concluyente sería analizar la correlación entre la incremento en la inversión y el crecimiento de cada país. Con esto en mente, en las Figuras 11 y 12 se muestran los gráficos de dispersión entre el crecimiento económico y el incremento en la inversión en ciencia y tecnología para los periódos "2001-2010" y "2011-2020", respectivamente.
 
